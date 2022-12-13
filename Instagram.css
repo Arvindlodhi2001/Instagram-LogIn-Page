@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    background-image: url(images/w13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+    
+}
+fieldset
+{
+    
+    width: 26%;
+    padding: 30px;
+    background-color: rgba(148, 239, 218 , .3);
+
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    padding-top:15px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+#username
+{
+    margin-top: 50px;
+}
+
+p
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+input
+{
+    height: 45px;
+    width: 95% ;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+
+.line
+{
+ color: black;   
+ display: flex;
+ font-weight: bold;
+ 
+ 
+}
+
+
+a
+{
+    
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold ;
+  
+}
+
+h2
+{
+    text-align: center;
+     line-height: 50px;
+}
+.btn
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+button
+{
+    width: 90%; 
+}
+
+h3
+{
+    text-align: center;
+    
+}
+
+.storicon
+{
+    display: flex;
+    justify-content: center;
+}
+
+.menuList
+{
+    
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: gray;
+    text-decoration: none;
+}
+li
+{
+    margin-left: 13px;
+    line-height: 15px;
+    
+}
+.menuList a
+{
+    color: gray; 
+    text-decoration: none;
+    font-weight: normal;
+    cursor: pointer;
+}
+.language  input
+{
+width: 85px;
+height: 25px;
+border:none;
+text-align: center;
+}
